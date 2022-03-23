@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*Background Section Start*/
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(background.png);
+  background-size: cover;
+  position: relative;
+}
+body::before {
+  position: absolute;
+  content: "";
+  background: white;
+  width: 100%;
+  height: 100vh;
+  top: -70px;
+  opacity: 0.6;
+}
+/*Background Section end*/
+/*From Section Start*/
+form {
+  width: 425px;
+  height: 500px;
+  margin-left: 35%;
+  margin-top: 5%;
+  box-shadow: 0px 5px 8px 3px #aaaa;
+  border-radius: 5px;
+  background: white;
+  z-index: 10;
+  position: relative;
+}
+/*1st title and sub-title start*/
+.first_title {
+  font-size: 32px;
+  padding: 10px 10px 0px 10px;
+}
+#sub_title {
+  color: #606770;
+  margin-left: 10px;
+}
+hr {
+  margin-top: 10px;
+  opacity: 20%;
+}
+/*1st title and sub-title end*/
+/*Input section start*/
+#all {
+  width: 180px;
+  border-radius: 5px;
+  background: #e6e6e6;
+  height: 35px;
+  border: 1px solid #aaaa;
+  font-size: 15px;
+  margin-left: 12px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+#all1 {
+  width: 390px;
+  background: #e6e6e6;
+  height: 35px;
+  border: 1px solid #aaaa;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 12px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+/*Input section end*/
+/*Date of birth section start*/
+.sub_title_2 {
+  margin-top: 10px;
+  font-size: 12px;
+}
+select {
+  width: 125px;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 35px;
+  font-size: 15px;
+  background: none;
+  border: 1px solid #aaaa;
+  border-radius: 5px;
+}
+/*Date of birth section end*/
+/*Gender section start*/
+.sub_title_3 {
+  margin-top: 10px;
+  font-size: 12px;
+}
+#all_gender {
+  width: 110px;
+  height: 25px;
+  border: 1px solid #aaaa;
+  padding: 10px 0px 0px 10px;
+  border-radius: 5px;
+}
+.female {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.male {
+  margin-top: -38px;
+  margin-left: 151px;
+}
+.other {
+  margin-left: 290px;
+  margin-top: -38px;
+}
+/*Gender section end*/
+/*last section start*/
+.sub_title_4 {
+  margin-left: 10px;
+  font-size: 10px;
+  color: #606770;
+}
+.sub_title_4 a {
+  text-decoration: none;
+  color: blue;
+}
+.submit {
+  width: 200px;
+  height: 40px;
+  background: #0ebd02;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+.submit:hover {
+  opacity: 60%;
+}
+/*last section end*/
+/*From Section end/
